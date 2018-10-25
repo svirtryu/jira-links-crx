@@ -1,0 +1,16 @@
+{
+  "name": "JIRA GitHub Links",
+  "version": "0.0.1",
+  "description": "Test",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*"
+      ],
+      "js": [
+        "jira-links.js"
+      ]
+    }
+  ]
+}
