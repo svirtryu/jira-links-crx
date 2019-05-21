@@ -1,5 +1,5 @@
 const issueTitles = document.getElementsByClassName('js-issue-title') || [];
-const issuePattern = /([a-zA-Z]{2,5}-[0-9]{1,5})(.+)/;
+const issuePattern = /([a-z]{2,}-\d+)(.*)/i;
 
 const updateNodes = () => {
   for(let titleNode of issueTitles) {
